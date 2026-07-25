@@ -1,0 +1,20 @@
+/* Las fuentes se cargan desde index.html con preconnect (más rápido) */
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", ui-serif, Georgia, serif;
+  --color-primary: #002bba;
+  --color-dark: #050505;
+  --color-light: #fbfbfb;
+}
+
+body {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}

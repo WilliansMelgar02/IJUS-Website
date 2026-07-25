@@ -1,0 +1,13 @@
+node_modules/
+.env*
+/tmp/
+/visuals/dist/
+.DS_Store
+
+# Respaldos locales de assets pesados (no subir a git)
+/visuals/public/fondo-original.mp4
+/visuals/public/_originales-backup/
+
+# Python
+__pycache__/
+*.pyc
